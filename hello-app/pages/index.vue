@@ -1,8 +1,4 @@
-<script setup lang="ts">
-definePageMeta({
-  layout: 'default'
-})
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <div class="flex flex-col items-center justify-center min-h-screen bg-[#176e43]">
@@ -19,10 +15,11 @@ definePageMeta({
       </h1>
     </div>
   </div>
+  <Footer />
 </template>
 
 <style scoped>
-h1 {
+.flex,h1 {
   font-family: "Poppins";
 }
 </style>
